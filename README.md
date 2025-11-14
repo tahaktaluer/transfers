@@ -34,9 +34,9 @@ Common variables:
 | `fee` | raw transfer fee information | text |
 | `transfer_movement` | transfer into club or out of club? | text |
 | `transfer_period` | transfer window (summer or winter) | text |
-| `fee_cleaned` | numeric transformation of `fee`, in EUR millions| numeric |
+| `fee_cleaned` | numeric transformation of `fee`, in EUR millions| EUR 50 millions |
 | `league_name` | name of league `club_name` belongs to | text |
-| `year` | year of transfer | text |
+| `year` | year of transfer | 2010 |
 | `season` | season of transfer (interpolated from `year`) | text |
 | `country` | country of league | text |
 
